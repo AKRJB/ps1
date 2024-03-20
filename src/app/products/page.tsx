@@ -1,7 +1,6 @@
 import React from 'react';
 import { DataTable } from '@/components/data-table';
 import { columns } from './columns';
-import Footer from '@/components/Footer';
 
 
 const productsData = [
@@ -333,9 +332,8 @@ const productsData = [
 
 const App = () => {
   return (
-    <div className='pt-20 mt-10'>
+    <div className='pt-20 mt-12'>
       <DataTable columns={columns} data={productsData}/>
-      <Footer />
     </div>
   );
 };

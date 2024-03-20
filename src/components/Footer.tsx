@@ -7,9 +7,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+          Empowering Scientific Excellence: Discover Quality Lab Equipment & Supplies for Chemistry, Biology, and Physics Practicals. Elevate Your Research and Education Today!
           </p>
         </div>
         <div>
@@ -17,7 +15,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -25,7 +23,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/about"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -33,15 +31,15 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/products"
                 className="hover:text-white transition-colors duration-300"
               >
-                Courses
+                Products
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -74,8 +72,7 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>19/2 Dayalbagh Road beside Paridhan by meenu , Nagla Padi , New Agra Colony , Agra ,Uttar Pradesh </p>
-          <p>Agra 282005</p>
+          <p>19/2 Dayalbagh Road beside Paridhan by meenu, Nagla Padi, New Agra Colony, Agra, Uttar Pradesh </p>
           <p>Email: pioneerscientific@gmail.com</p>
           <p>Phone: 9897134849</p>
         </div>

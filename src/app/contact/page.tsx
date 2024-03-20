@@ -4,6 +4,7 @@ import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
 function MusicSchoolContactUs() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -31,6 +32,14 @@ function MusicSchoolContactUs() {
           in your musical journey.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+          <input
+            type="string"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Please enter your name"
+            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            required
+          />
           <input
             type="email"
             value={email}
